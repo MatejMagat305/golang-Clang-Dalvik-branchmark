@@ -1,1 +1,11 @@
-https://github.com/MatejMagat305/golang-Clang-Dalvik-branchmark/blob/main/vysl.txt 
+
+
+java: Elapsed time in seconds: 1092.885226719
+clang++ ordinal: Elapsed time in seconds: 2431.389107 
+clang++ O2: Elapsed time in seconds: 565.466466 
+clang++ O3: Elapsed time in seconds: 549.549344 
+
+golang: time:  6m35.262030474s = 395.262030473s
+aarch-linux-g++ -O3: Elapsed time in seconds: 484.158942 
+
+bonus: golang concurent: time:  2m9.788966149s = 129.788966149s
