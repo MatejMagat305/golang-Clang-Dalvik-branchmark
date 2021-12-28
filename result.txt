@@ -8,13 +8,15 @@ clang++ O2 : Elapsed time in seconds: 565.466466
 clang++ O3: Elapsed time in seconds: 549.549344 
 aarch-linux-g++ -O3: Elapsed time in seconds: 484.158942 
 
-golang: time:  6m35.262030474s = 395.262030473s
-
-fix ahojMemoryacess.cpp:
+fix Memoryacess.cpp:
 clang++ : Elapsed time in seconds: 277.254857 
 clang++ O3: Elapsed time in seconds: 160.551561 
 aarch-linux-g++ -O3: Elapsed time in seconds: 145.751758 
 
+go original:
+golang: time:  6m35.262030474s = 395.262030473s
+bonus: golang concurent(6 threads): time:  2m9.788966149s = 129.788966149s
 
-bonus: 
-golang concurent: time:  2m9.788966149s = 129.788966149s
+fix Memoryacess.go:
+golang: time:  4m5.334874s = 245.334875s
+bonus: golang concurent(6 threads): time:  1m40.092428s = 100.092428s
