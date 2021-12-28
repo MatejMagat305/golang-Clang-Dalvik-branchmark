@@ -20,3 +20,4 @@ bonus: golang concurent(6 threads): time:  2m9.788966149s = 129.788966149s
 fix Memoryacess.go:
 golang: time:  4m5.334874s = 245.334875s
 bonus: golang concurent(6 threads): time:  1m40.092428s = 100.092428s
+bonus: golang concurent(8 threads): time:  1m22.515847s = 82.515847s
