@@ -1,6 +1,9 @@
 
-
+ordinal ahoj.java
 java: Elapsed time in seconds: 1092.885226719
+
+fix Memoryacess.java:
+java: Elapsed time in seconds: 1073.0658248
 
 ordinal ahoj.cpp:
 clang++ : Elapsed time in seconds: 2431.389107 
