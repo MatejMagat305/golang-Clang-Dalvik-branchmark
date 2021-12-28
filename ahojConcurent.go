@@ -28,7 +28,7 @@ func main() {
 	for i := 0; i < numUseCpu; i++ {
 		go func() { ch <- struct{}{} }()
 	}
-	runtime.GOMAXPROCS(numUseCpu + 1)
+	runtime.GOMAXPROCS(numUseCpu)
 	start := time.Now()
 	for i := 0; i < N; i++ {
 		<-ch
