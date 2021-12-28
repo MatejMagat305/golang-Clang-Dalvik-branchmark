@@ -6,4 +6,4 @@ In final competition c++ is winning almost 1.69x  faster than single thread gola
 
 # conclusion
 1. Although selection of language is important, the programing skills are the more important. 
-2. The Golang is efficient enought to be core of android app.
+2. The Golang is efficient enough to be core of android app.
