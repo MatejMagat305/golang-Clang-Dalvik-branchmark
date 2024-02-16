@@ -1,4 +1,4 @@
-
+samsung galaxy Tab S2 android 7 
 ordinal ahoj.java
 java: Elapsed time in seconds: 1092.885226719
 
@@ -24,3 +24,6 @@ fix Memoryacess.go:
 golang: time:  4m5.334874s = 245.334875s
 bonus: golang concurent(6 threads): time:  1m40.092428s = 100.092428s
 bonus: golang concurent(8 threads): time:  1m22.515847s = 82.515847s
+
+samsung galaxy tab S6
+bonus: golang1.21(pgo) concurent(8 threads): time:  41.515847s 
